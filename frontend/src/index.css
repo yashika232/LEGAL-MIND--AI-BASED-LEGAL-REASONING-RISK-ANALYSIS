@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --cream: #faf8f5;
+  --blush: #f9e8e8;
+  --lavender: #ede8f9;
+  --mint: #e8f5f0;
+  --sky: #e8f2f9;
+  --peach: #fdf0e8;
+  --rose: #f4c5c5;
+  --violet: #c5b8e8;
+  --sage: #b8d8cc;
+  --powder: #b8d4e8;
+  --primary: #9b87d4;
+  --primary-dark: #7c6bb5;
+  --accent: #e8956d;
+  --text-dark: #2d2640;
+  --text-mid: #5a5070;
+  --text-light: #9590a8;
+  --border: #ede8f5;
+  --card-bg: rgba(255,255,255,0.85);
+  --shadow: 0 8px 32px rgba(155,135,212,0.12);
+  --shadow-lg: 0 20px 60px rgba(155,135,212,0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--lavender);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--violet);
+  border-radius: 99px;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-16px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fadeUp { animation: fadeUp 0.6s ease forwards; }
+.animate-scaleIn { animation: scaleIn 0.4s ease forwards; }
+
+.glass {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+.shimmer-loading {
+  background: linear-gradient(90deg, var(--lavender) 25%, var(--cream) 50%, var(--lavender) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
