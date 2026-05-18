@@ -3,6 +3,34 @@
 An AI-powered legal case management and document analysis platform built using the MERN-style architecture with a React frontend and Flask backend. The platform helps lawyers and legal professionals manage cases, upload legal documents, analyze case risks, retrieve similar judgements, and interact with uploaded documents using Retrieval-Augmented Generation (RAG).
 
 ---
+# Screenshots
+  <img width="1903" height="845" alt="Screenshot 2026-05-12 161257" src="https://github.com/user-attachments/assets/1cf0861f-6606-4381-ae24-a1f44bbf6f37" />
+Landing page
+
+<img width="1919" height="833" alt="Screenshot 2026-05-12 161430" src="https://github.com/user-attachments/assets/77def891-99e2-4bb4-b4c8-86c4f94cef98" />
+Dashboard
+
+<img width="1876" height="838" alt="Screenshot 2026-05-12 161445" src="https://github.com/user-attachments/assets/80a081fe-5eef-4997-b16d-19561b247627" />
+Select the type of case 
+
+<img width="1909" height="817" alt="Screenshot 2026-05-12 162441" src="https://github.com/user-attachments/assets/850b7019-809c-415d-9930-c1bb9fbd0c29" />
+Upload all relevant documents
+
+<img width="1883" height="868" alt="Screenshot 2026-05-12 165112" src="https://github.com/user-attachments/assets/77e2100a-1e0e-49ac-8291-06cd0c229fb2" />
+Case Analysis and summary
+
+<img width="1109" height="748" alt="Screenshot 2026-05-12 165138" src="https://github.com/user-attachments/assets/777af8b9-7508-4857-8e52-d1df3c0b6b11" />
+Past similiar judgements retrieval
+
+<img width="877" height="723" alt="Screenshot 2026-05-12 165154" src="https://github.com/user-attachments/assets/f8727ad8-cc92-46b4-87d1-5047b425376a" />
+Chatbot with context awareness of case
+
+<img width="915" height="667" alt="Screenshot 2026-05-12 165217" src="https://github.com/user-attachments/assets/50df7c23-3ab9-451f-b377-9d8219302f67" />
+Document Drafter
+
+
+
+
 
 # 🚀 Features
 
